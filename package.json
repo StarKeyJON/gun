@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "ws": "^7.2.1",
-    "aws-sdk": "^2.528.0",
+    "aws-sdk": "^2.528.0"
   },
   "optionalDependencies": {
     "@peculiar/webcrypto": "^1.1.1"
