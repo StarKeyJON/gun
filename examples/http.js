@@ -31,7 +31,7 @@
 	var gun = GUN({
    		web: opt.server.listen(opt.port), 
 		peers: opt.peers,
-		radisk: true,
+		radisk: false,
 		multicast: false,
    		s3: {
       			key: process.env.AWS_ACCESS_KEY_ID, // AWS Access Key
