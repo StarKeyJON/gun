@@ -28,7 +28,7 @@
 		opt.server = require('http').createServer(GUN.serve(__dirname));
 	}
 
-	var gun = Gun({
+	var gun = GUN({
    		web: config.server.listen(config.port),
    		peers: config.peers,
    		s3: {
